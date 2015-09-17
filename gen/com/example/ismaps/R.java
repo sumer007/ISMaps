@@ -490,17 +490,16 @@ containing a value of this type.
         public static final int common_signin_btn_text_normal_light=0x7f02001c;
         public static final int common_signin_btn_text_pressed_dark=0x7f02001d;
         public static final int common_signin_btn_text_pressed_light=0x7f02001e;
-        public static final int ic_drawer=0x7f02001f;
-        public static final int ic_launcher=0x7f020020;
-        public static final int ic_plusone_medium_off_client=0x7f020021;
-        public static final int ic_plusone_small_off_client=0x7f020022;
-        public static final int ic_plusone_standard_off_client=0x7f020023;
-        public static final int ic_plusone_tall_off_client=0x7f020024;
-        public static final int powered_by_google_dark=0x7f020025;
-        public static final int powered_by_google_light=0x7f020026;
+        public static final int ic_launcher=0x7f02001f;
+        public static final int ic_plusone_medium_off_client=0x7f020020;
+        public static final int ic_plusone_small_off_client=0x7f020021;
+        public static final int ic_plusone_standard_off_client=0x7f020022;
+        public static final int ic_plusone_tall_off_client=0x7f020023;
+        public static final int powered_by_google_dark=0x7f020024;
+        public static final int powered_by_google_light=0x7f020025;
     }
     public static final class id {
-        public static final int action_settings=0x7f070024;
+        public static final int action_settings=0x7f070021;
         public static final int adjust_height=0x7f070001;
         public static final int adjust_width=0x7f070002;
         public static final int book_now=0x7f070012;
@@ -510,10 +509,8 @@ containing a value of this type.
         public static final int buy_with_google=0x7f070015;
         public static final int cast_notification_id=0x7f070000;
         public static final int classic=0x7f070019;
-        public static final int content_frame=0x7f070021;
         public static final int donate_with=0x7f070016;
         public static final int donate_with_google=0x7f070017;
-        public static final int drawer_layout=0x7f070020;
         public static final int google_wallet_classic=0x7f07001a;
         public static final int google_wallet_grayscale=0x7f07001b;
         public static final int google_wallet_monochrome=0x7f07001c;
@@ -521,9 +518,8 @@ containing a value of this type.
         public static final int holo_dark=0x7f070008;
         public static final int holo_light=0x7f070009;
         public static final int hybrid=0x7f070004;
-        public static final int left_drawer=0x7f070023;
         public static final int logo_only=0x7f070018;
-        public static final int map=0x7f070022;
+        public static final int map=0x7f070020;
         public static final int match_parent=0x7f070010;
         public static final int monochrome=0x7f07001e;
         public static final int none=0x7f070003;
@@ -697,15 +693,13 @@ containing a value of this type.
         public static final int wallet_buy_button_place_holder=0x7f06002b;
     }
     public static final class style {
+        /**  Application theme. 
+         */
+        public static final int ActionBarTheme=0x7f050006;
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
 
         Base application theme for API 11+. This theme completely replaces
         AppBaseTheme from res/values/styles.xml on API 11+ devices.
@@ -719,10 +713,6 @@ containing a value of this type.
  API 14 theme customizations can go here. 
          */
         public static final int AppBaseTheme=0x7f050005;
-        /**  Application theme. 
- All customizations that are NOT specific to a particular API-level can go here. 
-         */
-        public static final int AppTheme=0x7f050006;
         public static final int Theme_IAPTheme=0x7f050000;
         public static final int WalletFragmentDefaultButtonTextAppearance=0x7f050003;
         public static final int WalletFragmentDefaultDetailsHeaderTextAppearance=0x7f050002;
