@@ -17,4 +17,16 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
     
+    <style name="button1style" parent="@android:style/Holo.ButtonBar">
+        <item name="android:drawableBottom">@drawable/c</item>
+    </style>
+    
+    <style name="button2style" parent="@android:style/Holo.ButtonBar">
+        <item name="android:drawableBottom">@drawable/d</item>
+    </style>
+    
+    <style name="button3style" parent="@android:style/Holo.ButtonBar">
+        <item name="android:drawableBottom">@drawable/h</item>
+    </style>
+    
 </resources>
