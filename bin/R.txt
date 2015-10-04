@@ -107,13 +107,10 @@ int drawable ic_plusone_standard_off_client 0x7f020025
 int drawable ic_plusone_tall_off_client 0x7f020026
 int drawable powered_by_google_dark 0x7f020027
 int drawable powered_by_google_light 0x7f020028
-int id action_settings 0x7f070024
+int id action_settings 0x7f070021
 int id adjust_height 0x7f070001
 int id adjust_width 0x7f070002
 int id book_now 0x7f070012
-int id button1 0x7f070021
-int id button2 0x7f070022
-int id button3 0x7f070023
 int id buyButton 0x7f07000e
 int id buy_now 0x7f070013
 int id buy_with 0x7f070014

@@ -502,13 +502,10 @@ containing a value of this type.
         public static final int powered_by_google_light=0x7f020028;
     }
     public static final class id {
-        public static final int action_settings=0x7f070024;
+        public static final int action_settings=0x7f070021;
         public static final int adjust_height=0x7f070001;
         public static final int adjust_width=0x7f070002;
         public static final int book_now=0x7f070012;
-        public static final int button1=0x7f070021;
-        public static final int button2=0x7f070022;
-        public static final int button3=0x7f070023;
         public static final int buyButton=0x7f07000e;
         public static final int buy_now=0x7f070013;
         public static final int buy_with=0x7f070014;

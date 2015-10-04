@@ -23,6 +23,5 @@ public class MapsActivity extends Activity implements OnMapReadyCallback{
 		// TODO Auto-generated method stub
 		Log.i(TAG, "map has been loaded");
 		mGoogleMap = googleMap;
-		mGoogleMap.setMyLocationEnabled(true);
 	}
 }
