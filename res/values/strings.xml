@@ -4,13 +4,7 @@
     <string name="app_name">ISMaps</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string-array name="titles">
-        <item >Departments</item>
-        <item >Canteens</item>
-        <item >Hostels</item>
-        <item >Clubs</item>
-    </string-array>
-    <string name="drawer_open">Open Navigation Drawer</string>
-    <string name="drawer_close">Close Navigation Drawer</string>
+    <string name="lat_string">Latitude:</string>
+    <string name="long_string">Longitude:</string>
 
 </resources>

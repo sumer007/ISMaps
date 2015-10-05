@@ -8,9 +8,6 @@
 package com.example.ismaps;
 
 public final class R {
-    public static final class array {
-        public static final int titles=0x7f0b0000;
-    }
     public static final class attr {
         /** 
     The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
@@ -502,7 +499,7 @@ containing a value of this type.
         public static final int powered_by_google_light=0x7f020028;
     }
     public static final class id {
-        public static final int action_settings=0x7f070021;
+        public static final int action_settings=0x7f07002a;
         public static final int adjust_height=0x7f070001;
         public static final int adjust_width=0x7f070002;
         public static final int book_now=0x7f070012;
@@ -521,8 +518,13 @@ containing a value of this type.
         public static final int holo_dark=0x7f070008;
         public static final int holo_light=0x7f070009;
         public static final int hybrid=0x7f070004;
+        public static final int lat_textview=0x7f070023;
+        public static final int lat_textview_land=0x7f070028;
         public static final int logo_only=0x7f070018;
+        public static final int long_textview=0x7f070026;
+        public static final int long_textview_land=0x7f070029;
         public static final int map=0x7f070020;
+        public static final int map_frag=0x7f070027;
         public static final int match_parent=0x7f070010;
         public static final int monochrome=0x7f07001e;
         public static final int none=0x7f070003;
@@ -533,8 +535,12 @@ containing a value of this type.
         public static final int selectionDetails=0x7f07000f;
         public static final int slide=0x7f07001f;
         public static final int strict_sandbox=0x7f07000c;
+        public static final int tableRow1=0x7f070021;
+        public static final int tableRow2=0x7f070024;
         public static final int terrain=0x7f070007;
         public static final int test=0x7f07000d;
+        public static final int textView1=0x7f070022;
+        public static final int textView3=0x7f070025;
         public static final int wrap_content=0x7f070011;
     }
     public static final class integer {
@@ -544,7 +550,7 @@ containing a value of this type.
         public static final int activity_maps_layout=0x7f030000;
     }
     public static final class menu {
-        public static final int maps=0x7f0c0000;
+        public static final int maps=0x7f0b0000;
     }
     public static final class raw {
         public static final int gtm_analytics=0x7f040000;
@@ -683,9 +689,9 @@ containing a value of this type.
         public static final int create_calendar_message=0x7f060005;
         public static final int create_calendar_title=0x7f060004;
         public static final int decline=0x7f060003;
-        public static final int drawer_close=0x7f060030;
-        public static final int drawer_open=0x7f06002f;
         public static final int hello_world=0x7f06002d;
+        public static final int lat_string=0x7f06002f;
+        public static final int long_string=0x7f060030;
         public static final int store_picture_message=0x7f060001;
         public static final int store_picture_title=0x7f060000;
         /**  Text on a placeholder buy button when Google Play services is not
