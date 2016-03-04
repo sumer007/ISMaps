@@ -1,18 +1,22 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@android:color/black"
+    android:baselineAligned="false"
     android:orientation="horizontal" >
 
     <fragment
         android:id="@+id/map_frag"
         android:name="com.google.android.gms.maps.MapFragment"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent" />
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5" />
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
+        android:layout_weight="1"
         android:orientation="vertical" >
 
         <TextView
@@ -21,7 +25,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/lat_string"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/white"
+            tools:ignore="NestedWeights" />
 
         <TextView
             android:id="@+id/lat_textview_land"
@@ -44,7 +49,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:textColor="@android:color/white" />
-
     </LinearLayout>
 
 </LinearLayout>

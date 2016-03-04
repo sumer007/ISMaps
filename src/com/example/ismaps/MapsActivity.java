@@ -29,6 +29,7 @@ GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener{
 	LocationRequest mLocationRequest;
 	LatLng mLocation;
 	TextView lat_textview, long_textview;
+	boolean first_time = true;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -110,13 +111,17 @@ GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener{
 			lat_textview.setText(Double.toString(location.getLatitude()));
 			long_textview.setText(Double.toString(location.getLongitude()));
 		}
-		show_location(location);
+		if(first_time) {
+			show_location(location);
+			first_time = false;
+		}
 	}
 
 	private void show_location(Location location) {
 		// TODO Auto-generated method stub
 		mLocation = new LatLng(location.getLatitude(), location.getLongitude());
-		CameraPosition target = CameraPosition.builder().target(mLocation).zoom(14).build();
+		//mLocation = new LatLng(23.8145,86.4417);
+		CameraPosition target = CameraPosition.builder().target(mLocation).zoom(15).build();
 		mGoogleMap.animateCamera(CameraUpdateFactory.newCameraPosition(target));
 	}
 }
